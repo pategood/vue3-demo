@@ -6,13 +6,13 @@ const routes = [
     name: 'Home',
     component:() => import('../pages/Home.vue'),
     // redirect: '/index',
-    children: [
-      { 
-        path: '/index',
-        name: 'index',
-        component: () => import('../pages/index.vue')
-      }
-    ]
+    // children: [
+    //   { 
+    //     path: '/index',
+    //     name: 'index',
+    //     component: () => import('../pages/index.vue')
+    //   }
+    // ]
   },
   {
     path: '/404',
